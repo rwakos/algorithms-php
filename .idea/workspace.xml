@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/PrimeNumbers.php" afterPath="$PROJECT_DIR$/App/Models/PrimeNumbers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/PrimesTest.php" afterPath="$PROJECT_DIR$/tests/unit/PrimesTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,58 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SquareRotated45.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/SquareRotated45.php">
+      <file leaf-file-name="PrimeNumbers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Models/PrimeNumbers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+            <state relative-caret-position="482">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareRotated45Test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/SquareRotated45Test.php">
+      <file leaf-file-name="PrimesTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/unit/PrimesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#37#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="196" lean-forward="false" selection-start-line="4" selection-start-column="196" selection-end-line="4" selection-end-column="196" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PyramidTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/PyramidTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="e#6#37#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pyramid.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Pyramid.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="30" column="27" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="322">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,6 +73,8 @@
         <option value="$PROJECT_DIR$/App/Models/SquareRotated45.php" />
         <option value="$PROJECT_DIR$/tests/unit/SquareRotated45Test.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tests/unit/PrimesTest.php" />
+        <option value="$PROJECT_DIR$/App/Models/PrimeNumbers.php" />
       </list>
     </option>
   </component>
@@ -167,11 +133,6 @@
             <path>
               <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -211,9 +172,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.SquareRotated45Test">
+  <component name="RunManager" selected="PHPUnit.PrimeNumbersTest">
     <configuration name="IntReverseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="IntReverseTest" file="$PROJECT_DIR$/tests/unit/IntReverseTest.php" scope="Class" />
+    </configuration>
+    <configuration name="PrimeNumbersTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="PrimeNumbersTest" file="$PROJECT_DIR$/tests/unit/PrimesTest.php" scope="Class" />
     </configuration>
     <configuration name="PyramidTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="PyramidTest" file="$PROJECT_DIR$/tests/unit/PyramidTest.php" scope="Class" />
@@ -224,23 +188,20 @@
     <configuration name="SquareRotated45Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="SquareRotated45Test" file="$PROJECT_DIR$/tests/unit/SquareRotated45Test.php" scope="Class" />
     </configuration>
-    <configuration name="SquaresInRangeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="SquaresInRangeTest" file="$PROJECT_DIR$/tests/unit/SquaresInRangeTest.php" scope="Class" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.SquaresInRangeTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.IntReverseTest" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.PyramidTest" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.SquareRotated45Test" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.IntReverseTest" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.PyramidTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.SquareRotated45Test" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.PrimeNumbersTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.SquareRotated45Test" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.PyramidTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.IntReverseTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.SquaresInRangeTest" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.PrimeNumbersTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.SquareRotated45Test" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.PyramidTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.IntReverseTest" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,55 +219,55 @@
       <option name="presentableId" value="Default" />
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
-      <workItem from="1521820383368" duration="17139000" />
+      <workItem from="1521820383368" duration="22013000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 55m 59s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 38m 15s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 56m 42s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 39m 30s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 57m 17s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 42m 11s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 58m 37s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 42m 34s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 58m 55s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 42m 47s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 59m 09s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 52m 56s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 59m 21s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 20s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 09h 59m 27s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 26s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PyramidTest - 2018.03.24 at 10h 00m 35s.xml">
-      <configuration name="PyramidTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 36s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="SquareRotated45Test - 2018.03.24 at 11h 33m 37s.xml">
-      <configuration name="SquareRotated45Test" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 39s.xml">
+      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19551000" />
+    <option name="totallyTimeSpent" value="24425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25379938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1724924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31907895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20394737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -357,14 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="9" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Fizzbuzz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -463,14 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/PrimesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/PalidromeTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -547,11 +492,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Pyramid.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/SquareRotated45Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="30" column="27" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,6 +517,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Pyramid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -573,24 +539,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/SquareRotated45Test.php">
+    <entry file="file://$PROJECT_DIR$/App/Models/Fizzbuzz.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="206">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="196" lean-forward="false" selection-start-line="4" selection-start-column="196" selection-end-line="4" selection-end-column="196" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="671" column="9" lean-forward="false" selection-start-line="671" selection-start-column="9" selection-end-line="671" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/PrimesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/PrimeNumbers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

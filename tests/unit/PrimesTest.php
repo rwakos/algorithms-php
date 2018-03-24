@@ -4,20 +4,19 @@ use App\Models\PrimeNumbers;
 
 class PrimeNumbersTest extends TestCase
 {
-    public function testGetPrimes(){
-        $list_test = array(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97);
+    public function testGetPrimes1(){
+        $list_test = "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97";
         $obj = New PrimeNumbers(99);
         $prime_list = $obj->getPrimes();
         $this->assertEquals($list_test, $prime_list);
     }
 
-    public function testResponseIsArray()
-    {
+    public function testGetPrimes2(){
+        $list_test = "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97";
         $obj = New PrimeNumbers(99);
-        $prime_list = $obj->getPrimes();
-        $this->assertTrue(is_array($prime_list), 'The response is not an Array.');
+        $prime_list = $obj->getPrimesMathWay();
+        $this->assertEquals($list_test, $prime_list);
     }
-
     /**
      * @expectedException ArgumentCountError
      */

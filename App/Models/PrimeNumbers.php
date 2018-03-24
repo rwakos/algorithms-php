@@ -16,33 +16,44 @@ class PrimeNumbers {
             throw new \InvalidArgumentException;
         }
 
+        if ($n<2){
+            throw new \InvalidArgumentException;
+        }
+
         $this->size = $n;
 
     }
 
     function getPrimes(){
-        $n = $this->size;
-
-        $list = array();
-        for ($i=2; $i <= $n; $i++){
-            $bool = true;
-            foreach ($list as $l){
-            //for ($j=2; $j < $i; $j++){
-                if ($i % $l === 0){
-                    $bool = false;
-                    $j = $i;
+        $list = array_filter(range(2,$this->size),
+            function($x){
+                for ($i=2; $i < $x; $i++){
+                    if ($x % $i === 0){
+                        return false;
+                    }
                 }
-            }
+                return true;
+            });
 
-            if ($bool){
-                $list[] = $i;
-                //array_push($list,$i);
-            }
-        }
-        //echo "Going to print:<br>";
-        return $list;
+        return implode(", ",$list);
     }
 
+    function getPrimesMathWay(){
+        $n = $this->size;
+        $acum = [];
+        $list = array_filter(range(2,$n),
+            function($x) use (&$acum) {
+                foreach ($acum as $l){
+                    if ($x % $l === 0){
+                        return false;
+                    }
+                }
+                array_push($acum,$x);
+                return true;
+            });
+
+        return implode( ", ",$list);
+    }
 }
 
 
