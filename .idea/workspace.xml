@@ -13,34 +13,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RotateMatrix.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Models/RotateMatrix.php">
+      <file leaf-file-name="IntReverse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/IntReverse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            <state relative-caret-position="-337">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateMatrixTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/RotateMatrixTest.php">
+      <file leaf-file-name="IntReverseTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/unit/IntReverseTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="23">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#6#37#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testfly.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/testfly.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -68,6 +58,8 @@
         <option value="$PROJECT_DIR$/App/Models/SquaresInRange.php" />
         <option value="$PROJECT_DIR$/tests/unit/RotateMatrixTest.php" />
         <option value="$PROJECT_DIR$/App/Models/RotateMatrix.php" />
+        <option value="$PROJECT_DIR$/App/Models/IntReverse.php" />
+        <option value="$PROJECT_DIR$/tests/unit/IntReverseTest.php" />
       </list>
     </option>
   </component>
@@ -170,12 +162,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.RotateMatrixTest">
-    <configuration name="FibonacciTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FibonacciTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/unit/FibonacciTest.php" scope="Class" use_alternative_configuration_file="true" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.IntReverseTest">
     <configuration name="FizzbuzzTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="FizzbuzzTest" file="$PROJECT_DIR$/tests/unit/FizzbuzzTest.php" scope="Class" />
+    </configuration>
+    <configuration name="IntReverseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="IntReverseTest" file="$PROJECT_DIR$/tests/unit/IntReverseTest.php" scope="Class" />
     </configuration>
     <configuration name="PalidromeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="PalidromeTest" file="$PROJECT_DIR$/tests/unit/PalidromeTest.php" scope="Class" />
@@ -187,19 +179,19 @@
       <TestRunner class="SquaresInRangeTest" file="$PROJECT_DIR$/tests/unit/SquaresInRangeTest.php" scope="Class" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.FibonacciTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.PalidromeTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.FizzbuzzTest" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.SquaresInRangeTest" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.PalidromeTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.FizzbuzzTest" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.SquaresInRangeTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.IntReverseTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.SquaresInRangeTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.FizzbuzzTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.PalidromeTest" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.FibonacciTest" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.IntReverseTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.RotateMatrixTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.SquaresInRangeTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.FizzbuzzTest" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.PalidromeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,11 +209,14 @@
       <option name="presentableId" value="Default" />
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
-      <workItem from="1521820383368" duration="11120000" />
+      <workItem from="1521820383368" duration="12551000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="IntReverseTest - 2018.03.24 at 08h 33m 08s.xml">
+      <configuration name="IntReverseTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
     <history-entry file="RotateMatrixTest - 2018.03.23 at 19h 02m 09s.xml">
       <configuration name="RotateMatrixTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -246,28 +241,26 @@
     <history-entry file="RotateMatrixTest - 2018.03.23 at 19h 21m 11s.xml">
       <configuration name="RotateMatrixTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="SquaresInRangeTest - 2018.03.23 at 17h 47m 28s.xml">
-      <configuration name="SquaresInRangeTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="SquaresInRangeTest - 2018.03.23 at 17h 50m 55s.xml">
       <configuration name="SquaresInRangeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13532000" />
+    <option name="totallyTimeSpent" value="14963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25379938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37828946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37828946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20723684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3026316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -286,7 +279,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -440,18 +435,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/testfly.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/SquaresInRange.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="11" column="9" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/testfly.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -468,9 +463,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/RotateMatrix.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        <state relative-caret-position="276">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/IntReverse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/IntReverseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
