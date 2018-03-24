@@ -1,21 +1,21 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use App\Models\Palindrome;
+use App\Models\THECLASS;
 
-class PalidromeTest extends TestCase{
+class THECLASSTest extends TestCase{
 
     public $test1 = "abba";
     public $test2 = "hello";
 
-    function testIsPalindrome(){
-        $obj = new Palindrome();
-        $result = $obj->isPalindrome($this->test1);
+    function testNAMEOFTEST(){
+        $obj = new THECLASS();
+        $result = $obj->METHOD($this->test1);
         $this->assertEquals(true, $result);
     }
 
-    function testIsNotPalindrome(){
-        $obj = new Palindrome();
-        $result = $obj->isPalindrome($this->test2);
+    function testNAMEOFTEST(){
+        $obj = new THECLASS();
+        $result = $obj->METHOD($this->test2);
         $this->assertFalse($result);
     }
 
@@ -24,8 +24,7 @@ class PalidromeTest extends TestCase{
      */
     public function testThrowsExceptionIfNoDataIsPassed()
     {
-        $obj = new Palindrome();
-        $obj->isPalindrome();
+        new THECLASS();
     }
 
     /**
@@ -33,7 +32,6 @@ class PalidromeTest extends TestCase{
      */
     public function testThrowsExceptionIfNonTypeExpectedPassed()
     {
-        $strObj = new Steps('a');
-        $strObj->setSteps();
+        new THECLASS('a');
     }
 }

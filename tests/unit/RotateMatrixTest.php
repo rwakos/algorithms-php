@@ -39,10 +39,24 @@ class RotateMatrixTest extends TestCase{
     /**
      * @expectedException InvalidArgumentException
      */
-    public function testThrowsExceptionIfNonTypeExpectedPassed()
+    public function testThrowsExceptionIfNonTypeExpectedPassed1()
     {
         new RotateMatrix($this->matrix_err,3,90);
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testThrowsExceptionIfNonTypeExpectedPassed2()
+    {
         new RotateMatrix($this->matrix_1,'a',90);
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testThrowsExceptionIfNonTypeExpectedPassed3()
+    {
         new RotateMatrix($this->matrix_1,3,95);
     }
 }

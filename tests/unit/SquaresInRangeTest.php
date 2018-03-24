@@ -40,11 +40,24 @@ class SquaresInRangeTest extends TestCase{
     /**
      * @expectedException InvalidArgumentException
      */
-    public function testThrowsExceptionIfNonTypeExpectedPassed()
+    public function testThrowsExceptionIfNonTypeExpectedPassed1()
     {
         new SquaresInRange('a',2);
-        new SquaresInRange(2, 'a');
-        new SquaresInRange('a','b');
+    }
 
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testThrowsExceptionIfNonTypeExpectedPassed2()
+    {
+        new SquaresInRange(2, 'a');
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testThrowsExceptionIfNonTypeExpectedPassed3()
+    {
+        new SquaresInRange('a','b');
     }
 }
