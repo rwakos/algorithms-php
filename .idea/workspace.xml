@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="" />
+    <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/QuickSortTest.php" afterPath="$PROJECT_DIR$/tests/unit/QuickSortTest.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +15,7 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Results" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QuickSort.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickSort.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Models/QuickSort.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -22,14 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSortTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuickSortTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/QuickSortTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="69">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
                 <element signature="e#6#37#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/generate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +94,6 @@
         <option value="$PROJECT_DIR$/App/Models/InsertSort.php" />
         <option value="$PROJECT_DIR$/App/Models/BubbleSort.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/public/generate.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/unit/SelectionSortTest.php" />
         <option value="$PROJECT_DIR$/tests/unit/InsertSortTest.php" />
@@ -89,8 +101,9 @@
         <option value="$PROJECT_DIR$/tests/unit/MergeSortTest.php" />
         <option value="$PROJECT_DIR$/App/Models/MergeSort.php" />
         <option value="$PROJECT_DIR$/App/Models/SelectionSort.php" />
-        <option value="$PROJECT_DIR$/tests/unit/QuickSortTest.php" />
         <option value="$PROJECT_DIR$/App/Models/QuickSort.php" />
+        <option value="$PROJECT_DIR$/public/generate.php" />
+        <option value="$PROJECT_DIR$/tests/unit/QuickSortTest.php" />
       </list>
     </option>
   </component>
@@ -247,44 +260,44 @@
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
       <workItem from="1521820383368" duration="22739000" />
-      <workItem from="1522075597129" duration="15434000" />
+      <workItem from="1522075597129" duration="16484000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickSortTest - 2018.03.26 at 16h 58m 10s.xml">
-      <configuration name="QuickSortTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnLongList - 2018.03.26 at 16h 57m 57s.xml">
-      <configuration name="QuickSortTest.testQuickSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnLongList - 2018.03.26 at 16h 57m 58s.xml">
-      <configuration name="QuickSortTest.testQuickSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnLongList - 2018.03.26 at 16h 57m 59s.xml">
-      <configuration name="QuickSortTest.testQuickSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 13s.xml">
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 05s.xml">
       <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 15s.xml">
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 06s.xml">
       <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 16s.xml">
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 12s.xml">
       <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 17s.xml">
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 14s.xml">
       <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 18s.xml">
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 15s.xml">
       <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 19s.xml">
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 16s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 17s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 18s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 19s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 17h 18m 20s.xml">
       <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40585000" />
+    <option name="totallyTimeSpent" value="41635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -295,7 +308,7 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/generate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -682,21 +687,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/QuickSortTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/QuickSort.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/generate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/QuickSortTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
