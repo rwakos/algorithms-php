@@ -4,7 +4,7 @@ namespace App\Models;
 /*
  * Insert Sort: Sort an Integer list, using Insert Sort.
  * Resemblance to sorting a hand in a card game, every card you receive, you sort it from right to left in your hand
- * Complexity: n(log N)
+ * Complexity: n^2
  * */
 
 class InsertSort
