@@ -13,6 +13,13 @@ composer dump-autoload -o
 ### Tests
 Will be in the test folder
 
+Running on a console (full instruction):
+
+FullPathToPHPExec FullPathToPharFile --configuration FullPathToConfigFile NameOfTheClass FullPathToPHPFileTest --teamcity
+
 ### References
-Introduction to Algorithms, Thomas H. Cormen, LEISERSON, RIVEST and STEIN. 3rd Edition.
- 
+Introduction to Algorithms, by Thomas H. Cormen, LEISERSON, RIVEST and STEIN. 3rd Edition.
+
+Udemy: Coding Interview, by Stephen Grider
+
+Data Structures and Algorithms, by Mc Millan M

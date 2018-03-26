@@ -2,8 +2,8 @@
 use PHPUnit\Framework\TestCase;
 use App\Models\MergeSort;
 /*
- * On a Short list: 175 ms
- * On a Long list: 176 ms
+ * On a Short list: 162 ~ 171 ms
+ * On a Long list: 174 ~ 200 ms
  * */
 class MergeSortTest extends TestCase{
 
