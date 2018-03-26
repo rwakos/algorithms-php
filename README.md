@@ -10,3 +10,7 @@ composer dump-autoload -o
 
 ### Tests
 Will be in the test folder
+
+### References
+Introduction to Algorithms, Thomas H. Cormen, LEISERSON, RIVEST and STEIN. 3rd Edition.
+ 
