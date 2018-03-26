@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/MergeSort.php" afterPath="$PROJECT_DIR$/App/Models/MergeSort.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/SelectionSort.php" afterPath="$PROJECT_DIR$/App/Models/SelectionSort.php" />
-    </list>
+    <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +12,24 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Results" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SelectionSort.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Models/SelectionSort.php">
+      <file leaf-file-name="QuickSort.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Models/QuickSort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+            <state relative-caret-position="115">
+              <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSortTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/unit/QuickSortTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-598">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#6#37#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +46,7 @@
       <replace>SquareRotated45</replace>
       <replace>InsertSort</replace>
       <replace>Bubble</replace>
+      <replace>Quick</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -80,6 +89,8 @@
         <option value="$PROJECT_DIR$/tests/unit/MergeSortTest.php" />
         <option value="$PROJECT_DIR$/App/Models/MergeSort.php" />
         <option value="$PROJECT_DIR$/App/Models/SelectionSort.php" />
+        <option value="$PROJECT_DIR$/tests/unit/QuickSortTest.php" />
+        <option value="$PROJECT_DIR$/App/Models/QuickSort.php" />
       </list>
     </option>
   </component>
@@ -188,36 +199,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.MergeSortTest.testMergeSortOnShortList">
-    <configuration name="BubbleSortTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="BubbleSortTest" file="$PROJECT_DIR$/tests/unit/BubbleSortTest.php" scope="Class" />
-    </configuration>
-    <configuration name="BubbleSortTest.testBubbleSortOnLongList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="BubbleSortTest" file="$PROJECT_DIR$/tests/unit/BubbleSortTest.php" method="testBubbleSortOnLongList" scope="Method" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.QuickSortTest.testQuickSortOnShortList">
     <configuration name="MergeSortTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="MergeSortTest" file="$PROJECT_DIR$/tests/unit/MergeSortTest.php" scope="Class" />
-    </configuration>
-    <configuration name="MergeSortTest.testMergeSortOnLongList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="MergeSortTest" file="$PROJECT_DIR$/tests/unit/MergeSortTest.php" method="testMergeSortOnLongList" scope="Method" />
     </configuration>
     <configuration name="MergeSortTest.testMergeSortOnShortList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="MergeSortTest" file="$PROJECT_DIR$/tests/unit/MergeSortTest.php" method="testMergeSortOnShortList" scope="Method" />
     </configuration>
+    <configuration name="QuickSortTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="QuickSortTest" file="$PROJECT_DIR$/tests/unit/QuickSortTest.php" scope="Class" />
+    </configuration>
+    <configuration name="QuickSortTest.testQuickSortOnLongList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="QuickSortTest" file="$PROJECT_DIR$/tests/unit/QuickSortTest.php" method="testQuickSortOnLongList" scope="Method" />
+    </configuration>
+    <configuration name="QuickSortTest.testQuickSortOnShortList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="QuickSortTest" file="$PROJECT_DIR$/tests/unit/QuickSortTest.php" method="testQuickSortOnShortList" scope="Method" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.BubbleSortTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.BubbleSortTest.testBubbleSortOnLongList" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnShortList" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnLongList" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnShortList" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest.testQuickSortOnShortList" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest.testQuickSortOnLongList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnShortList" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnLongList" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.BubbleSortTest.testBubbleSortOnLongList" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.BubbleSortTest" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest.testQuickSortOnShortList" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest.testQuickSortOnLongList" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnShortList" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,44 +247,44 @@
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
       <workItem from="1521820383368" duration="22739000" />
-      <workItem from="1522075597129" duration="12496000" />
+      <workItem from="1522075597129" duration="15434000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortTest - 2018.03.26 at 15h 55m 00s.xml">
-      <configuration name="MergeSortTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest - 2018.03.26 at 16h 58m 10s.xml">
+      <configuration name="QuickSortTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnLongList - 2018.03.26 at 15h 54m 51s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnLongList - 2018.03.26 at 16h 57m 57s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnLongList - 2018.03.26 at 15h 54m 52s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnLongList - 2018.03.26 at 16h 57m 58s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 02s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnLongList - 2018.03.26 at 16h 57m 59s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 09s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 13s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 11s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 15s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 12s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 16s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 13s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 17s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 14s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 18s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 15h 55m 15s.xml">
-      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="QuickSortTest_testQuickSortOnShortList - 2018.03.26 at 16h 58m 19s.xml">
+      <configuration name="QuickSortTest.testQuickSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37647000" />
+    <option name="totallyTimeSpent" value="40585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -284,10 +295,10 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47532895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -659,6 +670,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="1015" column="9" lean-forward="false" selection-start-line="1015" selection-start-column="9" selection-end-line="1015" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/QuickSortTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/QuickSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="107" lean-forward="false" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
           <folding />
         </state>
       </provider>
