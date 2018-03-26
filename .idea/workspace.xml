@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/InsertSort.php" afterPath="$PROJECT_DIR$/App/Models/InsertSort.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,31 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen.php">
+      <file leaf-file-name="MergeSortTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/unit/MergeSortTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/generate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSortTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/InsertSortTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="92">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="e#6#37#0#PHP" expanded="true" />
               </folding>
@@ -46,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertSort.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Models/InsertSort.php">
+      <file leaf-file-name="MergeSort.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/MergeSort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="-15">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,6 +81,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/unit/InsertSortTest.php" />
         <option value="$PROJECT_DIR$/App/Models/InsertSort.php" />
+        <option value="$PROJECT_DIR$/App/Models/MergeSort.php" />
+        <option value="$PROJECT_DIR$/tests/unit/MergeSortTest.php" />
       </list>
     </option>
   </component>
@@ -188,6 +169,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\AlgorithmsPHP\App\Models" />
       <recent name="C:\xampp\htdocs\AlgorithmsPHP\tests\unit" />
       <recent name="C:\xampp\htdocs\AlgorithmsPHP" />
     </key>
@@ -204,36 +186,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.InsertSortTest.testInsertSortOnLongList">
+  <component name="RunManager" selected="PHPUnit.MergeSortTest.testMergeSortOnShortList">
     <configuration name="InsertSortTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="InsertSortTest" file="$PROJECT_DIR$/tests/unit/InsertSortTest.php" scope="Class" />
     </configuration>
     <configuration name="InsertSortTest.testInsertSortOnLongList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="InsertSortTest" file="$PROJECT_DIR$/tests/unit/InsertSortTest.php" method="testInsertSortOnLongList" scope="Method" />
     </configuration>
-    <configuration name="InsertSortTest.testInsertSortOnShortList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="InsertSortTest" file="$PROJECT_DIR$/tests/unit/InsertSortTest.php" method="testInsertSortOnShortList" scope="Method" />
+    <configuration name="MergeSortTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MergeSortTest" file="$PROJECT_DIR$/tests/unit/MergeSortTest.php" scope="Class" />
     </configuration>
-    <configuration name="PrimeNumbersTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="PrimeNumbersTest" file="$PROJECT_DIR$/tests/unit/PrimesTest.php" scope="Class" />
+    <configuration name="MergeSortTest.testMergeSortOnLongList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MergeSortTest" file="$PROJECT_DIR$/tests/unit/MergeSortTest.php" method="testMergeSortOnLongList" scope="Method" />
     </configuration>
-    <configuration name="SquareRotated45Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="SquareRotated45Test" file="$PROJECT_DIR$/tests/unit/SquareRotated45Test.php" scope="Class" />
+    <configuration name="MergeSortTest.testMergeSortOnShortList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MergeSortTest" file="$PROJECT_DIR$/tests/unit/MergeSortTest.php" method="testMergeSortOnShortList" scope="Method" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.SquareRotated45Test" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.PrimeNumbersTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest.testInsertSortOnShortList" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest.testInsertSortOnLongList" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest.testInsertSortOnLongList" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnShortList" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnLongList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest.testInsertSortOnLongList" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest.testInsertSortOnShortList" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.PrimeNumbersTest" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.SquareRotated45Test" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnShortList" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.MergeSortTest.testMergeSortOnLongList" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest.testInsertSortOnLongList" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.InsertSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,44 +234,44 @@
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
       <workItem from="1521820383368" duration="22739000" />
-      <workItem from="1522075597129" duration="4130000" />
+      <workItem from="1522075597129" duration="8102000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InsertSortTest - 2018.03.26 at 11h 29m 02s.xml">
-      <configuration name="InsertSortTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest - 2018.03.26 at 13h 49m 07s.xml">
+      <configuration name="MergeSortTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="InsertSortTest - 2018.03.26 at 11h 30m 34s.xml">
-      <configuration name="InsertSortTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest - 2018.03.26 at 13h 49m 27s.xml">
+      <configuration name="MergeSortTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="InsertSortTest - 2018.03.26 at 11h 34m 40s.xml">
-      <configuration name="InsertSortTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnLongList - 2018.03.26 at 13h 49m 10s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="InsertSortTest - 2018.03.26 at 11h 38m 03s.xml">
-      <configuration name="InsertSortTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 48m 49s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="InsertSortTest - 2018.03.26 at 11h 44m 52s.xml">
-      <configuration name="InsertSortTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 49m 29s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="InsertSortTest_testInsertSortOnLongList - 2018.03.26 at 11h 44m 55s.xml">
-      <configuration name="InsertSortTest.testInsertSortOnLongList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 49m 36s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="InsertSortTest_testInsertSortOnShortList - 2018.03.26 at 11h 44m 04s.xml">
-      <configuration name="InsertSortTest.testInsertSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 49m 39s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 26s.xml">
-      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 49m 40s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 36s.xml">
-      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 49m 41s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PrimeNumbersTest - 2018.03.24 at 15h 53m 39s.xml">
-      <configuration name="PrimeNumbersTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="MergeSortTest_testMergeSortOnShortList - 2018.03.26 at 13h 49m 42s.xml">
+      <configuration name="MergeSortTest.testMergeSortOnShortList" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29281000" />
+    <option name="totallyTimeSpent" value="33253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,10 +282,10 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34868422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -565,26 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/Anagram.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/generate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -600,6 +566,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/InsertSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/InsertSortTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -610,11 +584,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/InsertSort.php">
+    <entry file="file://$PROJECT_DIR$/public/generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="299">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/MergeSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/MergeSortTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
