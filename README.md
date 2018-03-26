@@ -2,7 +2,9 @@
 
 In this repo, I will code and test some of the common algorithms using PHP and PHPUnit, feel free to comment...
 
-Among the tests you will find: Anagram, Fibonacci, Fizzbuzz, IntReverse, LinkedList, Node, Palindrome, PrimeNumbers, Pyramid, RotateMatrix, SquareRotated45, SquaresInRange, Steps, StringReverse...
+Among the tests you will find: Anagram, BubbleSort, Fibonacci, Fizzbuzz, InsertSort, IntReverse, LinkedList, MergeSort, Node, 
+Palindrome, PrimesNumbers, Pyramid, RotateMatrix, SquareRotated45, SquaresInRange, Steps, StringReverse...
+
 ### Install
 composer install
 
