@@ -29,18 +29,7 @@ class MergeSort
 
     function sort(){
         $array = $this->array;
-
         return $this->mergeSort($array);
-        /*for ($j=2;$j<count($array);$j++){
-            $key = $array[$j];
-            $i = $j-1;
-            while ($i>=0 && $array[$i]>$key){   //Fix on pseudocode in the book ($i>0 ==> $i>=0)
-                $array[$i+1]=$array[$i];
-                $i--;
-            }
-            $array[$i+1]=$key;
-        }*/
-
         return $array;
     }
 

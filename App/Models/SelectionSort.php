@@ -3,7 +3,7 @@ namespace App\Models;
 
 /*
  * Selection Sort: Sort an Integer list, using Selection Sort.
- * Resemblance to sorting a hand in a card game, every card you receive, you sort it from right to left in your hand
+ * Swap element found with the minimum of the remained of the array
  * Complexity: n^2
  * */
 
