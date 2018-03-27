@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/LinkedList.php" afterPath="$PROJECT_DIR$/App/Models/LinkedList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/LinkedListTest.php" afterPath="$PROJECT_DIR$/tests/unit/LinkedListTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,25 +16,37 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Results" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Vowels.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Vowels.php">
+      <file leaf-file-name="LinkedList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/LinkedList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="192">
+              <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+              <folding>
+                <element signature="e#71#140#0#PHP" expanded="false" />
+                <element signature="e#146#233#0#PHP" expanded="false" />
+                <element signature="e#437#492#0#PHP" expanded="false" />
+                <element signature="e#498#787#0#PHP" expanded="false" />
+                <element signature="e#793#849#0#PHP" expanded="false" />
+                <element signature="e#855#989#0#PHP" expanded="false" />
+                <element signature="e#995#1403#0#PHP" expanded="false" />
+                <element signature="e#1409#1633#0#PHP" expanded="false" />
+                <element signature="e#1687#2326#0#PHP" expanded="false" />
+                <element signature="e#2379#3160#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="5" column="137" lean-forward="false" selection-start-line="5" selection-start-column="137" selection-end-line="5" selection-end-column="137" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="LinkedListTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/unit/LinkedListTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+              <folding>
+                <element signature="e#6#37#0#PHP" expanded="true" />
+                <element signature="n#testLinkedListIsClass#0;n#LinkedListTest#0;n#!!top" expanded="false" />
+                <element signature="n#testCreateLinkedList#0;n#LinkedListTest#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,6 +57,7 @@
     <findStrings>
       <find>Insert</find>
       <find>THECLASS</find>
+      <find>Vowels</find>
     </findStrings>
     <replaceStrings>
       <replace>Pyramid</replace>
@@ -99,6 +113,8 @@
         <option value="$PROJECT_DIR$/tests/unit/VowelsTest.php" />
         <option value="$PROJECT_DIR$/App/Models/Vowels.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/App/Models/LinkedList.php" />
+        <option value="$PROJECT_DIR$/tests/unit/LinkedListTest.php" />
       </list>
     </option>
   </component>
@@ -113,10 +129,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="688" />
-    <option name="height" value="372" />
+    <option name="x" value="613" />
+    <option name="y" value="24" />
+    <option name="width" value="694" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -157,16 +173,6 @@
             <path>
               <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Results" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -186,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -207,9 +213,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.VowelsTest.testCountVowels_3">
-    <configuration name="QuickSortTest.testQuickSortOnShortList" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="QuickSortTest" file="$PROJECT_DIR$/tests/unit/QuickSortTest.php" method="testQuickSortOnShortList" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.LinkedListTest">
+    <configuration name="LinkedListTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="LinkedListTest" file="$PROJECT_DIR$/tests/unit/LinkedListTest.php" scope="Class" />
     </configuration>
     <configuration name="VowelsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="VowelsTest" file="$PROJECT_DIR$/tests/unit/VowelsTest.php" scope="Class" />
@@ -224,19 +230,19 @@
       <TestRunner class="VowelsTest" file="$PROJECT_DIR$/tests/unit/VowelsTest.php" method="testCountVowels_3" scope="Method" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest.testQuickSortOnShortList" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_1" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_1" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.LinkedListTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_1" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.QuickSortTest.testQuickSortOnShortList" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.LinkedListTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_1" />
       </list>
     </recent_temporary>
   </component>
@@ -255,58 +261,58 @@
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
       <workItem from="1521820383368" duration="22739000" />
-      <workItem from="1522075597129" duration="18369000" />
+      <workItem from="1522075597129" duration="26184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VowelsTest - 2018.03.26 at 17h 45m 06s.xml">
-      <configuration name="VowelsTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 10h 47m 56s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_2 - 2018.03.26 at 17h 44m 50s.xml">
-      <configuration name="VowelsTest.testCountVowels_2" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 10h 52m 34s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_2 - 2018.03.26 at 17h 44m 51s.xml">
-      <configuration name="VowelsTest.testCountVowels_2" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 10h 59m 52s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_2 - 2018.03.26 at 17h 44m 52s.xml">
-      <configuration name="VowelsTest.testCountVowels_2" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 11h 10m 00s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_3 - 2018.03.26 at 17h 45m 08s.xml">
-      <configuration name="VowelsTest.testCountVowels_3" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 11h 10m 18s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_3 - 2018.03.26 at 17h 45m 10s.xml">
-      <configuration name="VowelsTest.testCountVowels_3" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 11h 10m 32s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_3 - 2018.03.26 at 17h 45m 11s.xml">
-      <configuration name="VowelsTest.testCountVowels_3" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 11h 21m 21s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_3 - 2018.03.26 at 17h 45m 12s.xml">
-      <configuration name="VowelsTest.testCountVowels_3" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 12h 01m 26s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_3 - 2018.03.26 at 17h 45m 13s.xml">
-      <configuration name="VowelsTest.testCountVowels_3" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 12h 02m 01s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="VowelsTest_testCountVowels_3 - 2018.03.26 at 17h 45m 14s.xml">
-      <configuration name="VowelsTest.testCountVowels_3" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LinkedListTest - 2018.03.27 at 12h 02m 27s.xml">
+      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43520000" />
+    <option name="totallyTimeSpent" value="51335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22012103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22112462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48519737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5361842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -326,20 +332,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/unit/LinkedListTest.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/tests.php" />
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/testX.php" />
     <entry file="file://$PROJECT_DIR$/App/Models/Palindrome.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -417,20 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/NodeTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/LinkedListTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -582,7 +571,7 @@
         <state relative-caret-position="115">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
+            <element signature="e#6#37#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -592,7 +581,7 @@
         <state relative-caret-position="92">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
+            <element signature="e#6#37#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -618,7 +607,7 @@
         <state relative-caret-position="115">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
+            <element signature="e#6#37#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -660,7 +649,7 @@
         <state relative-caret-position="69">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
+            <element signature="e#6#37#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,8 +691,19 @@
         <state relative-caret-position="179">
           <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <element signature="e#6#37#0#PHP" expanded="true" />
+            <element signature="e#6#37#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -715,14 +715,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="137" lean-forward="false" selection-start-line="5" selection-start-column="137" selection-end-line="5" selection-end-column="137" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/tests/unit/NodeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Node.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/LinkedList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding>
+            <element signature="e#71#140#0#PHP" expanded="false" />
+            <element signature="e#146#233#0#PHP" expanded="false" />
+            <element signature="e#437#492#0#PHP" expanded="false" />
+            <element signature="e#498#787#0#PHP" expanded="false" />
+            <element signature="e#793#849#0#PHP" expanded="false" />
+            <element signature="e#855#989#0#PHP" expanded="false" />
+            <element signature="e#995#1403#0#PHP" expanded="false" />
+            <element signature="e#1409#1633#0#PHP" expanded="false" />
+            <element signature="e#1687#2326#0#PHP" expanded="false" />
+            <element signature="e#2379#3160#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/LinkedListTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="true" />
+            <element signature="n#testLinkedListIsClass#0;n#LinkedListTest#0;n#!!top" expanded="false" />
+            <element signature="n#testCreateLinkedList#0;n#LinkedListTest#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
