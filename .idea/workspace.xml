@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f0cf0ab-1bff-4566-bee7-069e86a8f676" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/LinkedList.php" afterPath="$PROJECT_DIR$/App/Models/LinkedList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/LinkedListTest.php" afterPath="$PROJECT_DIR$/tests/unit/LinkedListTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,37 +14,22 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/Results" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinkedList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/LinkedList.php">
+      <file leaf-file-name="Spirals.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Models/Spirals.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-              <folding>
-                <element signature="e#71#140#0#PHP" expanded="false" />
-                <element signature="e#146#233#0#PHP" expanded="false" />
-                <element signature="e#437#492#0#PHP" expanded="false" />
-                <element signature="e#498#787#0#PHP" expanded="false" />
-                <element signature="e#793#849#0#PHP" expanded="false" />
-                <element signature="e#855#989#0#PHP" expanded="false" />
-                <element signature="e#995#1403#0#PHP" expanded="false" />
-                <element signature="e#1409#1633#0#PHP" expanded="false" />
-                <element signature="e#1687#2326#0#PHP" expanded="false" />
-                <element signature="e#2379#3160#0#PHP" expanded="false" />
-              </folding>
+            <state relative-caret-position="371">
+              <caret line="69" column="42" lean-forward="false" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/unit/LinkedListTest.php">
+      <file leaf-file-name="testfly.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/testfly.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-              <folding>
-                <element signature="e#6#37#0#PHP" expanded="true" />
-                <element signature="n#testLinkedListIsClass#0;n#LinkedListTest#0;n#!!top" expanded="false" />
-                <element signature="n#testCreateLinkedList#0;n#LinkedListTest#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,12 +92,14 @@
         <option value="$PROJECT_DIR$/public/generate.php" />
         <option value="$PROJECT_DIR$/tests/unit/QuickSortTest.php" />
         <option value="$PROJECT_DIR$/tests/unit/AnagramTest.php" />
-        <option value="$PROJECT_DIR$/public/testfly.php" />
         <option value="$PROJECT_DIR$/tests/unit/VowelsTest.php" />
         <option value="$PROJECT_DIR$/App/Models/Vowels.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/App/Models/LinkedList.php" />
         <option value="$PROJECT_DIR$/tests/unit/LinkedListTest.php" />
+        <option value="$PROJECT_DIR$/tests/unit/SpiralTest.php" />
+        <option value="$PROJECT_DIR$/public/testfly.php" />
+        <option value="$PROJECT_DIR$/App/Models/Spirals.php" />
       </list>
     </option>
   </component>
@@ -167,26 +152,14 @@
             <path>
               <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AlgorithmsPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="unit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,15 +186,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.LinkedListTest">
+  <component name="RunManager" selected="PHPUnit.SpiralsTest">
     <configuration name="LinkedListTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="LinkedListTest" file="$PROJECT_DIR$/tests/unit/LinkedListTest.php" scope="Class" />
     </configuration>
+    <configuration name="SpiralsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="SpiralsTest" file="$PROJECT_DIR$/tests/unit/SpiralTest.php" scope="Class" />
+    </configuration>
     <configuration name="VowelsTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="VowelsTest" file="$PROJECT_DIR$/tests/unit/VowelsTest.php" scope="Class" />
-    </configuration>
-    <configuration name="VowelsTest.testCountVowels_1" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="VowelsTest" file="$PROJECT_DIR$/tests/unit/VowelsTest.php" method="testCountVowels_1" scope="Method" />
     </configuration>
     <configuration name="VowelsTest.testCountVowels_2" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="VowelsTest" file="$PROJECT_DIR$/tests/unit/VowelsTest.php" method="testCountVowels_2" scope="Method" />
@@ -231,18 +204,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_1" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.LinkedListTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.LinkedListTest" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.SpiralsTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.LinkedListTest" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_1" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.SpiralsTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.LinkedListTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_3" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.VowelsTest" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.VowelsTest.testCountVowels_2" />
       </list>
     </recent_temporary>
   </component>
@@ -261,56 +234,66 @@
       <updated>1521762436868</updated>
       <workItem from="1521762438083" duration="2412000" />
       <workItem from="1521820383368" duration="22739000" />
-      <workItem from="1522075597129" duration="26184000" />
+      <workItem from="1522075597129" duration="26452000" />
+      <workItem from="1522284757889" duration="6388000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest - 2018.03.27 at 10h 47m 56s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 06h 59m 54s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 10h 52m 34s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 04m 32s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 10h 59m 52s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 09m 28s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 11h 10m 00s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 11m 47s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 11h 10m 18s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 12m 11s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 11h 10m 32s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 23m 17s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 11h 21m 21s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 23m 31s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 12h 01m 26s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 27m 08s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 12h 02m 01s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 34m 27s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.03.27 at 12h 02m 27s.xml">
-      <configuration name="LinkedListTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="SpiralsTest - 2018.03.29 at 07h 45m 29s.xml">
+      <configuration name="SpiralsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51335000" />
+    <option name="totallyTimeSpent" value="57991000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1608" height="868" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22112462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1895887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5361842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35019973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -343,15 +326,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/testX.php" />
-    <entry file="file://$PROJECT_DIR$/App/Models/Palindrome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/StringReverse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -534,14 +508,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen.php" />
     <entry file="file://$PROJECT_DIR$/App/Models/BubbleSort.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -562,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,9 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,15 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/testfly.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#37#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,7 +641,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="69">
             <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -719,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,6 +666,18 @@
         <state relative-caret-position="117">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/LinkedListTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#37#0#PHP" expanded="false" />
+            <element signature="n#testLinkedListIsClass#0;n#LinkedListTest#0;n#!!top" expanded="false" />
+            <element signature="n#testCreateLinkedList#0;n#LinkedListTest#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -750,15 +700,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/LinkedListTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/unit/SpiralTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        <state relative-caret-position="529">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#6#37#0#PHP" expanded="true" />
-            <element signature="n#testLinkedListIsClass#0;n#LinkedListTest#0;n#!!top" expanded="false" />
-            <element signature="n#testCreateLinkedList#0;n#LinkedListTest#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/testfly.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Spirals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="69" column="42" lean-forward="false" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
