@@ -16,7 +16,8 @@ class Anagram
         $this->string2 = strtolower(preg_replace('/[^\w]/i','',$str2));
     }
     //-----------------------------------------------------------------------------------------------------------------------
-    public function isAnagram(){
+    public function isAnagram():bool
+    {
         $a = str_split($this->string1);
         $b = str_split($this->string2);
 
@@ -31,7 +32,8 @@ class Anagram
         return false;
     }
     //-----------------------------------------------------------------------------------------------------------------------
-    public function isAnagram2(){
+    public function isAnagram2():bool
+    {
         $a = str_split($this->string1);
         $b = str_split($this->string2);
 
@@ -55,7 +57,8 @@ class Anagram
         return true;
     }
     //-----------------------------------------------------------------------------------------------------------------------
-    public function isAnagram3(){
+    public function isAnagram3():bool
+    {
         $a = str_split($this->string1);
         $b = str_split($this->string2);
         sort($a);

@@ -9,7 +9,8 @@ namespace App\Models;
  * */
 class Fizzbuzz{
 
-    function printFizbuzz($n){
+    function printFizbuzz($n)
+    {
         if (empty($n)){
             throw new \ArgumentCountError;
         }
